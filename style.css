@@ -1,0 +1,101 @@
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    padding: 20px;
+}
+
+/* container */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* title */
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* REMOVE SIDE-BY-SIDE */
+.parent-card {
+    display: block;
+}
+
+/* card */
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* SEARCH SECTION (TOP BIG BAR) */
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* button */
+button {
+    padding: 14px 20px;
+    background: #3b82f6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+/* WEATHER BIG CARD */
+#weather {
+    margin-top: 10px;
+}
+
+/* WEATHER ITEMS LOOK LIKE CARDS */
+.weather-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background: #f1f5f9;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* HISTORY SECTION */
+.history {
+    margin-top: 10px;
+}
+
+.history button {
+    margin: 6px;
+    padding: 8px 16px;
+    border-radius: 25px;
+    background: #1e293b;
+    color: white;
+    font-size: 14px;
+}
+
+.history button:hover {
+    background: #0f172a;
+}
